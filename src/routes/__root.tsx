@@ -77,20 +77,24 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { name: "theme-color", content: "#09090B" },
+      { title: "GameDeals Hub — Melhores promoções de jogos digitais" },
+      {
+        name: "description",
+        content:
+          "Descubra e compare os melhores descontos em jogos Steam, PlayStation e Xbox. Ofertas, jogos gratuitos e lançamentos atualizados todos os dias.",
+      },
+      { property: "og:title", content: "GameDeals Hub" },
+      {
+        property: "og:description",
+        content:
+          "Os melhores descontos em jogos digitais — Steam, PlayStation e Xbox em um só lugar.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
-      {
-        rel: "stylesheet",
-        href: appCss,
-      },
+      { rel: "stylesheet", href: appCss },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
   }),
