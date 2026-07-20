@@ -1,7 +1,15 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
-import { Heart, ShoppingCart, Star } from "lucide-react";
+import { Heart, ShoppingCart, Star, Info } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogDescription,
+} from "@/components/ui/dialog";
 import { type Game, PLATFORM_LABELS } from "@/lib/games-data";
 import { cn } from "@/lib/utils";
 
