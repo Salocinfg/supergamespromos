@@ -119,7 +119,7 @@ export const GAMES: Game[] = [
   },
   {
     id: "7",
-    title: "Iron Battalion X",
+    title: "Iron Battalion 1",
     image: img("ironbattalion"),
     platform: "xbox",
     publisher: "Steel Ops",
