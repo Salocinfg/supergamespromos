@@ -76,6 +76,9 @@ export function GameCard({ game }: { game: Game }) {
           <p className="truncate text-xs text-muted-foreground">
             {game.publisher} · {game.genres.slice(0, 2).join(" · ")}
           </p>
+          <p className="mt-2 line-clamp-2 text-xs text-muted-foreground/90">
+            {game.description}
+          </p>
         </div>
 
         <div className="flex items-center gap-2 text-xs text-muted-foreground">
