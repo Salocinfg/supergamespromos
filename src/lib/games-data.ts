@@ -10,6 +10,7 @@ export interface Game {
   releaseDate: string;
   genres: string[];
   tags: string[];
+  description: string;
   originalPrice: number;
   currentPrice: number;
   discount: number;
