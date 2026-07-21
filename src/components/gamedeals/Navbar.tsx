@@ -23,8 +23,8 @@ export function Navbar() {
           <div className="grid h-9 w-9 place-items-center rounded-lg bg-primary/15 ring-1 ring-primary/30">
             <Gamepad2 className="h-5 w-5 text-primary" />
           </div>
-          <span className="text-lg font-black tracking-tight">
-            GameDeals<span className="text-primary">Hub</span>
+          <span className="text-lg font-black tracking-tight text-foreground">
+            Super<span className="text-primary">Games</span>
           </span>
         </Link>
 
