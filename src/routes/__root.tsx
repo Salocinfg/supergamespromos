@@ -78,20 +78,24 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "theme-color", content: "#09090B" },
-      { title: "GameDeals Hub — Melhores promoções de jogos digitais" },
+      { title: "GameDeals Hub — Melhores promoções de jogos: Steam, PlayStation e Xbox" },
       {
         name: "description",
         content:
-          "Descubra e compare os melhores descontos em jogos Steam, PlayStation e Xbox. Ofertas, jogos gratuitos e lançamentos atualizados todos os dias.",
+          "Compare preços e encontre os maiores descontos em jogos digitais da Steam, PlayStation Store e Xbox Store. Ofertas atualizadas diariamente.",
       },
-      { property: "og:title", content: "GameDeals Hub" },
+      { property: "og:title", content: "GameDeals Hub — Melhores promoções de jogos: Steam, PlayStation e Xbox" },
       {
         property: "og:description",
         content:
-          "Os melhores descontos em jogos digitais — Steam, PlayStation e Xbox em um só lugar.",
+          "Compare preços e encontre os maiores descontos em jogos digitais da Steam, PlayStation Store e Xbox Store. Ofertas atualizadas diariamente.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "GameDeals Hub — Melhores promoções de jogos: Steam, PlayStation e Xbox" },
+      { name: "twitter:description", content: "Compare preços e encontre os maiores descontos em jogos digitais da Steam, PlayStation Store e Xbox Store. Ofertas atualizadas diariamente." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/dc6e9043-c555-4598-9fab-e73afee88c46/id-preview-b983542a--8635d8b9-4cde-47a1-9f39-a0319172ee15.lovable.app-1784592647972.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/dc6e9043-c555-4598-9fab-e73afee88c46/id-preview-b983542a--8635d8b9-4cde-47a1-9f39-a0319172ee15.lovable.app-1784592647972.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

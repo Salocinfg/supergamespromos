@@ -18,11 +18,11 @@ export const Route = createFileRoute("/")({
         content:
           "Compare preços e encontre os maiores descontos em jogos digitais da Steam, PlayStation Store e Xbox Store. Ofertas atualizadas diariamente.",
       },
-      { property: "og:title", content: "GameDeals Hub — Promoções de jogos em tempo real" },
+      { property: "og:title", content: "GameDeals Hub — Melhores promoções de jogos: Steam, PlayStation e Xbox" },
       {
         property: "og:description",
         content:
-          "Os melhores descontos em jogos todos os dias. Steam, PlayStation e Xbox em um só lugar.",
+          "Compare preços e encontre os maiores descontos em jogos digitais da Steam, PlayStation Store e Xbox Store. Ofertas atualizadas diariamente.",
       },
     ],
   }),
